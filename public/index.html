@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=width-device, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/main.css" />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-5.15.1-web/css/all.min.css"
+    />
+    <title>Stephen King Universe</title>
+  </head>
+  <body>
+    <div id="home">
+      <div id="navbar">
+        <a href="#home" id="logo"><img src="../image/logo.png" /></a>
+        <button id="navbar-toggle" class="menu-button">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="navbar-links" id="navbar-links">
+          <li>
+            <a href="#dark-tower" class="scroll-link link-border-underline">dark tower</a>
+          </li>
+          <li>
+            <a href="#categories" class="scroll-link link-border-underline">categories</a>
+          </li>
+          <li>
+            <a href="#gallery" class="scroll-link link-border-underline">gallery</a>
+          </li>
+          </ul>
+      </div>
+      <div class="home-box">
+        <div class="home-box-item">
+          <img id="img-book-pre-order" src="" alt="image book" />
+          <div class="home-box-btn-conteiner">
+            <button class="prev-button">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="random-button">Random book</button>
+            <button class="next-button">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="home-box-item home-box-item-content">
+          <div id="home-box-item-contenet-label">
+            <img src="../image/pre-order.png" id="pre-order-title" />
+            <div id="timer-coneiner">
+              <p class="giveaway"></p>
+              <div class="deadline">
+               <div class="deadline-format">
+                    <p class="days"></p>
+                    <span>days</span>
+                </div>
+               <div class="deadline-format">
+                <p class="hours"></p>
+                    <span>hours</span>
+                </div>
+                <div class="deadline-format">
+                <p class="minutes"></p>
+                    <span>mins</span>
+                </div>
+                <div class="deadline-format">
+                 <p class="seconds"></p>
+                    <span>secs</span>
+                  </div>
+                </div>
+            <h2 id="name-book-pre-order"></h2>
+            <p id="series-book-pre-order"></p>
+          </div>
+        </div>
+          <div class="link-order-book">
+            <a href="#" id="view-book" class="link-border-underline">View Book</a>
+            <button id="btn-pre-order">Pre-order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dark-tower">
+      <h1 class="title-section">the dark tower</h1>
+      <div class="section-conteiner">
+        <div class="section-box"></div>
+        <div id="pagenumbers"></div>
+      </div>
+    </div>
+    <div id="categories">
+      <h1 class="title-section">categories</h1>
+      <ul class="tabs">
+        <li data-tab-target="short-story" class="active tab">Short Story</li>
+        <li data-tab-target="novels" class="tab">Novels</li>
+        <li data-tab-target="anthology" class="tab">Anthology</li>
+      </ul>
+      <div class="tab-content">
+        <div id="short-story" class="active tabs-container" data-tab-content>
+        </div>
+          
+        <div id="prising" class="tabs-container" data-tab-content>
+          
+        </div>
+        <div id="about" class="tabs-container" data-tab-content>
+          
+        </div>
+      </div>
+    </div>
+    <div id="gallery">
+      <h1 class="title-section">gallery<h1>
+        <div class="gallery">
+          <div class="gallery-container">
+            <img class="gallery-item" src="../gallery/1.jpg">
+            <img class="gallery-item" src="../gallery/2.jpg">
+            <img class="gallery-item" src="../gallery/3.jpeg">
+            <img class="gallery-item" src="../gallery/4.jpg">
+            <img class="gallery-item" src="../gallery/5.jpg">
+          </div>
+          <div class="gallery-controls"></div>
+          </div>
+    </div>
+    <div id="footer" class="section">
+      <p>
+        copyright &copy; Yury Dabranau
+        <span id="date"></span>. all rights reserved
+      </p>
+      <div class="links-conteiner">
+            <ul class="footer-links">
+              <li>
+                <a href="#">
+                  <img
+                    src="../image/icons/icon-facebook.png"
+                    alt="icon facebook"
+                    class="image-links"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="../image/icons/icon-twitter.png"
+                    alt="icon twitter"
+                    class="image-links"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="../image/icons/icon-youtube.png"
+                    alt="icon youtube"
+                    class="image-links"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+    </div>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+<script type="module">
+  import { getStarted } from "../src/JS/index.js";
+  getStarted();
+</script>
+</body>
+</html>

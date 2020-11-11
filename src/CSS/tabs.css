@@ -1,0 +1,44 @@
+[data-tab-content] {
+	display: none;
+}
+
+.active[data-tab-content] {
+	display: block;
+}
+
+.tabs {
+	display: flex;
+	justify-content: space-around;
+}
+
+.tab {
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	cursor: pointer;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+
+.tab:not(:last-child) {
+	border-right: 2px solid white;
+}
+
+.tab.active {
+	background-color: white;
+	color: black;
+	opacity: 0.1;
+}
+
+.tab-hover {
+	background-color: red;
+}
+
+.tabs-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,200 @@
+
+#dark-tower,
+#categories,
+#gallery
+{
+  height: 100vh;
+}
+
+.title-section {
+  text-align: center;
+}
+
+/* Section Dark Tower */
+
+.section-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  max-width: 100%;
+}
+
+.section-box {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.section-box-item {
+  max-width: 200px;
+  min-height: 400px;
+  object-fit: cover;
+  box-shadow: 0px -4px 44px 18px rgba(204, 125, 116, 0.2);
+  border-radius: 5px;
+}
+
+.title-book-section {
+  min-height: 70px;
+  text-transform: capitalize;
+  background-color: #281d1c;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+.section-box-item-image {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#pagenumbers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#pagenumbers button {
+	width: 50px;
+	height: 50px;
+  border: none;
+	outline: none;
+	cursor: pointer;
+  background-color:white;
+  margin: 1em;
+	transition: 0.6s;
+  color: black;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+#pagenumbers button:hover {
+	background-color: #6d0700;
+}
+
+#pagenumbers button.active {
+	background-color: #5c0d02;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Categories */
+
+
+
+/* Footer */
+
+#footer {
+  color: black;
+  padding: 5rem 1rem;
+}
+#footer p {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  margin-bottom: 1em;
+  color: white;
+}
+
+.footer-links li {
+  margin: 1em;
+}
+
+.top-link {
+  font-size: 1.25em;
+  position: fixed;
+  bottom: 3em;
+  right: 3em;
+  color: red;
+  background: black;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -100;
+}
+
+.show-link {
+  visibility: visible;
+  z-index: 100;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .section-box {
+    grid-gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+    justify-items: center;
+  }
+
+  .section-box-item {
+    max-width: 130px;
+    max-height: 180px;
+    border: 2px solid white;
+    object-fit: cover;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

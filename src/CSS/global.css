@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-size: 15px;
+    color: white;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background-color: black;
+    background-image: url(/image/header-background-it2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: .3s background-image linear
+}
+
+ul {
+    list-style-type: none;
+  }
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    
+}
+a:hover, button:hover {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75em;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1em;
+}
+h4 {
+  font-size: 1em;
+}
+
+.conteiner {
+    width: 90%;
+    margin: 0 auto;
+}
+.image-links {
+  height: 25px;
+}
+button:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
