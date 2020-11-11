@@ -1,11 +1,11 @@
 const bookList = [
   {
     nameBook: "The gunslinger",
-    urlImage: "../../../image/dark_tower/the-gunslinger-comics.jpg",
+    urlImage: "../image/dark_tower/the-gunslinger-comics.jpg",
   },
   {
     nameBook: "The drawing of the three",
-    urlImage: "../../../image/dark_tower/the-drawing-of-the-three.jpg",
+    urlImage: "../image/dark_tower/the-drawing-of-the-three.jpg",
   },
   {
     nameBook: "The waste lands",
